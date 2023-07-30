@@ -1,0 +1,128 @@
+/* Styling for custom scrollbar */
+.custom-scrollbar {
+    /* Set the height of the container to accommodate the scrollbar */
+    height: 21rem !important;
+    /* Enable vertical scrolling when content overflows */
+    overflow-y: auto !important;
+    /* Set the width of the scrollbar */
+    scrollbar-width: thin;
+    /* Set the colors of the scrollbar thumb and track */
+    scrollbar-color: #000000 #f3f4f6;
+  
+    /* Add margin to create space between the scrollbar and content */
+    margin-right: 5px;
+  }
+  
+  /* Styling for the scrollbar in WebKit-based browsers */
+  .custom-scrollbar::-webkit-scrollbar {
+    /* Set the width of the scrollbar */
+    width: 4px;
+    color: #000000;
+  }
+  
+  /* Styling for the scrollbar thumb in WebKit-based browsers */
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    /* Set the background color of the scrollbar thumb */
+    background-color: #000000;
+    /* Set the border radius to make the scrollbar thumb round */
+    border-radius: 15px;
+  }
+  
+  /* Styling for the scrollbar thumb when hovered in WebKit-based browsers */
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    /* Set the background color of the scrollbar thumb when hovered */
+    background-color: #a1a1aa;
+  }
+
+
+  /* for chat box */
+
+  .custom-scrollbars {
+    /* Set the height of the container to accommodate the scrollbar */
+    height: 12rem !important;
+    
+    /* Enable vertical scrolling when content overflows */
+    overflow-y: auto !important;
+    /* Set the width of the scrollbar */
+    scrollbar-width: thin !important;
+    /* Set the colors of the scrollbar thumb and track */
+    scrollbar-color: #d1d5db #f3f4f6;
+  
+    /* Add margin to create space between the scrollbar and content */
+    margin-right: 3px;
+  }
+  
+  /* Styling for the scrollbar in WebKit-based browsers */
+  .custom-scrollbars::-webkit-scrollbar {
+    /* Set the width of the scrollbar */
+    width: 4px;
+  }
+  
+  /* Styling for the scrollbar thumb in WebKit-based browsers */
+  .custom-scrollbars::-webkit-scrollbar-thumb {
+    /* Set the background color of the scrollbar thumb */
+    background-color: #d1d5db;
+    /* Set the border radius to make the scrollbar thumb round */
+    border-radius: 15px;
+  }
+  
+  /* Styling for the scrollbar thumb when hovered in WebKit-based browsers */
+  .custom-scrollbars::-webkit-scrollbar-thumb:hover {
+    /* Set the background color of the scrollbar thumb when hovered */
+    background-color: #a1a1aa;
+  }
+  
+  /* Styling for a centered horizontal line */
+  .centered-hr {
+    /* Set the width of the horizontal line */
+    width: calc(100% - 10px);
+    /* Center the horizontal line within its container */
+    margin: 0 auto;
+    /* Remove left padding to align the line correctly */
+    padding-left: 0px !important;
+    /* Set the color of the horizontal line */
+    border-color: #d1d5db;
+  }
+  
+  .leading-8 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .text-gray-500 {
+    color: #6B7280;
+  }
+  
+  .font-medium {
+    font-weight: 500;
+  }
+  
+  .flex {
+    display: flex;
+ 
+  }
+  
+  .label {
+    width: 100px; /* Adjust this value to increase/decrease the space between label and data */
+    display: inline-block;
+    text-align: right;
+    margin-left: 20px;
+    margin-right: 8px; /* Adjust this value to set the space between label and data */
+  }
+  
+  .colon {
+    margin-right: 8px;
+    
+  }
+  
+  .labels {
+    width: 100px; /* Adjust this value to increase/decrease the space between label and data */
+    display: inline-block;
+    text-align: right;
+    margin-right: 8px; 
+  }
+
+ 
+
+  
