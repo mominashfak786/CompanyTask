@@ -9,7 +9,7 @@ const LandingPage = () => {
   return (
     // Container for the Landing Page
     <div
-      className="pt-20"
+      className="pt-40"
       style={{
         backgroundImage: `url(${bgImg})`,
         backgroundRepeat: "no-repeat",
@@ -38,6 +38,7 @@ const LandingPage = () => {
             {/* Checking if there are any user accounts before mapping */}
             {users?.length > 0 &&
               users.map((user) => (
+                
                 <li key={user.id} className="mb-2 list-none">
                   {/* Link to the user's profile page */}
                   <Link

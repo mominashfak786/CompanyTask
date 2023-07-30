@@ -3,27 +3,26 @@
     /* Set the height of the container to accommodate the scrollbar */
     height: 21rem !important;
     /* Enable vertical scrolling when content overflows */
-    overflow-y: auto !important;
+    overflow-y: auto;
     /* Set the width of the scrollbar */
     scrollbar-width: thin;
     /* Set the colors of the scrollbar thumb and track */
-    scrollbar-color: #000000 #f3f4f6;
+    scrollbar-color: #d1d5db #f3f4f6;
   
     /* Add margin to create space between the scrollbar and content */
-    margin-right: 5px;
+    margin-right: 3px;
   }
   
   /* Styling for the scrollbar in WebKit-based browsers */
   .custom-scrollbar::-webkit-scrollbar {
     /* Set the width of the scrollbar */
     width: 4px;
-    color: #000000;
   }
   
   /* Styling for the scrollbar thumb in WebKit-based browsers */
   .custom-scrollbar::-webkit-scrollbar-thumb {
     /* Set the background color of the scrollbar thumb */
-    background-color: #000000;
+    background-color: #d1d5db;
     /* Set the border radius to make the scrollbar thumb round */
     border-radius: 15px;
   }
@@ -44,7 +43,7 @@
     /* Enable vertical scrolling when content overflows */
     overflow-y: auto !important;
     /* Set the width of the scrollbar */
-    scrollbar-width: thin !important;
+    scrollbar-width: thin;
     /* Set the colors of the scrollbar thumb and track */
     scrollbar-color: #d1d5db #f3f4f6;
   

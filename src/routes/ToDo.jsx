@@ -18,7 +18,7 @@ const ToDo = () => {
           <hr />
           {!dataArr ? (
             <div className="mt-4 p-8">
-              <div className="text-center font-bold text-gray-400 text-[2rem] opacity-25 p-40">
+              <div className="text-center font-bold text-gray-400 text-[4rem] opacity-25 p-40">
                 Coming Soon
               </div>
             </div>

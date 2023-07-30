@@ -2,32 +2,27 @@
   text-align: center;
   
 }
-::-webkit-scrollbar {
-  display: none;
-}
 
-/* Optional: Add styling to the scrollbar track and thumb */
-::-webkit-scrollbar-track {
-  background-color: #f1f1f1;
-}
 
-::-webkit-scrollbar-thumb {
-  background-color: #888;
-}
-html,body{
-
-  scroll-behavior: smooth;
-}
-
+/* Default style for the .indicator element */
 .indicator {
   position: absolute;
-  left: 235px;
+  left: 23px;
   height: 2rem;
   width: 3rem;
   background-color: white;
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
 }
+
+
+/* Media query for screens with width 110% or more */
+@media (min-width: 700px) {
+  .indicator {
+    left: 236px;
+  }
+}
+
 
 .indicator::before {
   content: "";

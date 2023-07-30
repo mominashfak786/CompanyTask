@@ -75,7 +75,7 @@ const ChatPage = () => {
         {open && (
           <Box
             className="p-2 custom-scrollbars overflow-y-auto scrollbar-thin"
-            style={{ position: "relative" }}
+           
           >
             {users?.map((user) => (
               <Box
@@ -157,7 +157,7 @@ const ChatPage = () => {
                 justify={msg.sender === "user" ? "flex-end" : "flex-start"}
               >
                 <Box
-                  bg={msg.sender === "user" ? "blue.500" : "gray.200"}
+                  bg={msg.sender === "user" ? "blue.900" : "gray.200"}
                   color={msg.sender === "user" ? "blue.900" : "black"}
                   p="2"
                   borderRadius="8px"
